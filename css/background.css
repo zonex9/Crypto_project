@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+body {
+	margin: 0;
+	height: 100%;
+	background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+	background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+textarea {
+  width: 500px;
+  height: 100px;
+}
+.button2 {background-color: #008CBA;} /* Blue */
+.button_container {
+	position: absolute;
+  left: 0;
+  right: 0;
+  top: 20%;
+}
+
+.description, .link {
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+}
+
+.description {
+	font-size: 60px;
+}
+
+.retour {
+  border: none;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  background-color: #4CAF50;
+  padding: 17px 60px;
+  margin: 0 auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.valider {
+  border: none;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  background-color: #008CBA;
+  padding: 17px 60px;
+  margin: 0 auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.retour:hover {
+  background-color: #d9afd9; 
+  color: white;
+}
+
+
+.btn {
+  border: none;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  background-color: #222;
+  padding: 17px 60px;
+  margin: 0 auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+}
+
+.btn span {
+  position: relative; 
+  z-index: 1;
+}
+
+.btn:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 490%;
+  width: 140%;
+  background: #78c7d2;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+
+.btn:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+
+.link {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.link a {
+  color: #000;
+  font-size: 25px; 
+}
+.btn-si {
+  background-position: 1em;
+  background-repeat: no-repeat;
+  background-size: 2em;
+  border-radius: 0.5em;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  height: 4em;
+  line-height: 1em;
+  padding: 0 2em 0 4em;
+  text-decoration: none;
+  transition: all 0.5s;
+  border:1px solid; }
+  
+.btn-github {
+  background-image: url("../img/github.svg"); }
+  .btn-github:hover {
+    opacity:1; }
+  .btn-github:active {
+    opacity:1; }
+
+
+.button{
+  float: right;
+  margin-right: 19px;
+  margin-top: 18px;
+}
