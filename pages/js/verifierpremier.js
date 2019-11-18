@@ -1,4 +1,4 @@
-function verifierpremier(){
+function verifierpremiers()
 {
 	var n = document.getElementById("numero").value;
  
