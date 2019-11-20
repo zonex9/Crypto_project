@@ -16,11 +16,11 @@ function verifierpremiers()
     {
       if(nombre % i === 0)
       {
-        return  alert("Desolé, Ce n'est pas un nombre premier");
+        return  alert("Ce n'est pas un nombre premier, veuillez réessayez");
       }
 	  i=i+1;
     }
-    return alert("Parfait,C'est un nombre premier");  
+    return alert("Parfait,c'est un nombre premier");  
   }
 }
 
