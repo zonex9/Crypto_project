@@ -1,24 +1,26 @@
 function verifierpremiers()
 {
-	var n = document.getElementById("numero").value;
+	var nombre = document.getElementById("numero").value;
  
-  if (n===1)
+  if (nombre===1)
   {
     return false;
   }
-  else if(n === 2)
+  else if(nombre === 2)
   {
     return true;
   }else
   {
-    for(var x = 2; x < n; x++)
+	  var i=2;
+    while(i < nombre)
     {
-      if(n % x === 0)
+      if(nombre % i === 0)
       {
         return  alert("Desolé, Ce n'est pas un nombre premier");
       }
+	  i=i+1;
     }
-    return alert("Parfait,Ce n'est pas un nombre premier");  
+    return alert("Parfait,C'est un nombre premier");  
   }
 }
 
